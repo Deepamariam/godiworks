@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.subheader-header{
+    background-image: url(https://images.unsplash.com/photo-1531156992292-d36397ee9184?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+
+}
+
+.header-item{
+
+        display: flex;
+        width: 100%;
+        color: #d8d8d8;
+        font-size: 40px;
+        justify-content: center;
+        padding-left: 3%;
+        align-items: center;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+        font-family: 'Pacifico', cursive;
+        
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #d8d8d8;
+
+}
+
+.subheader-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subheader-item1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: #d8d8d8;
+    font-family: 'Rochester', cursive;
+    font-weight: bold;
+}
+
+.subheader-item2{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #d8d8d8;
+    font-family: 'David Libre', serif;
+    font-weight: 500;
+
+}
+
+.body-container{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-image: url(https://i.pinimg.com/736x/26/ca/63/26ca634bdcca3367a2341bb529b1f34f.jpg);
+}
+
+.body-container-item1, .body-container-item2, .body-container-item3{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+
+}
+
+.body-container-detail1, .body-container-detail3{
+
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 24px;
+    width: 35%;
+    color: black;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.body-container-detail2{
+
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    font-size: 25px;
+    width: 35%;
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.body-container-img1, .body-container-img3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.body-container-img2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+img {
+    width: 207px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+
+.subscribe-footer{
+    background-image: url(https://p1.pxfuel.com/preview/784/928/904/coals-black-background-carbon-charcoal-energy.jpg);
+}
+
+.subscribe-container{
+
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+
+}
+
+.subscribe-item{
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/02/01/37/dark-2569588_640.jpg);
+    display: flex;
+    flex-direction: column;
+    color: #d8d8d8;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+}
+
+.subscribe-item-head{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 25px;
+}
+
+.subscribe-item-detail{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 20px;
+}
+
+.subscribe-item-form{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.form-button{
+    color: #d8d8d8;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    padding: 5% 7% 5% 5%;
+    border-radius: 10px;
+    font-family: 'David Libre', serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-gPAR0tncGTR9EidZ2PrLLo2rt5jBBclf21q6eB8TrjQq97L4&usqp=CAU);
+}
+  
+.form-button:hover {
+    background-color: #4CAF50; /* Green */
+    color: #4CAF50;
+  }
+form {
+    width: 60%;
+    display: flex;
+}
+.form-fields {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    align-items: center;
+}
+.submit-btn {
+    width: 20%;
+    justify-content: flex-end;
+    display: flex;
+    
+}
+#email {
+    width: 60%;
+    height: 25px;
+    border-radius: 7px;
+    
+}
+@media only screen and (max-width: 980px) {
+    form {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .form-fields {
+      width: 65% !important;
+    }
+    .submit-btn {
+        width: 35% !important;
+    }
+  }
+
+.footer-container {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'David Libre', serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 12vh;
+  }
+  
+  .footer-item {
+    color: #d8d8d8;
+    font-weight: bold;
+    padding-top: 1%;
+    
+    
+  }
+
+
+  .footer-contact{
+      padding-top: 1%;
+      padding-bottom: 0.5%;
+      font-size: 20px;
+      display: flex;
+      align-items: baseline;
+      color: #d8d8d8;
+  }
+  
