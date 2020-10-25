@@ -1,1 +1,1 @@
-A simple website created to nurture positive thoughts among people.
+A simple personal website created to nurture positive thoughts among people.
